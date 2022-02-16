@@ -1,0 +1,221 @@
+
+.colecciones{
+    width: 100%;
+    height: 1350px;
+    /* background: linear-gradient(0deg, #00000088 30%, #ffffff44 100% ); */
+}
+
+
+.colecciones h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.container-colecciones{
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.colecciones p{
+    font-size: 25px;
+}
+
+
+.colect1:hover, .colect2:hover, .colect3:hover{
+    border-color: #f15bff;
+    cursor: pointer;
+}
+
+.colect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+    background-image: url(/img/YXcwVVnbcRkyF018PA1cyHX0gEpgwY2wVfkMgP3R.jpg);
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 30px;
+    
+}
+
+.colect2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+    background-image: url(/img/rolling-stone-nft-h.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.colect3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    border: 2px solid white;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+    background-image: url(/img/axies-2-1024x576.png.webp);
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 30px;
+    
+}
+
+.tar-contain{
+    font-size: 15px;
+    font-weight: 600;
+    height: 150px;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin: auto;
+    color: black;
+    background-color: #af69cd;
+    margin-top: 30px;
+    filter:drop-shadow(0 8px 8px rgba(0,0,0,0.3));
+}
+
+.tar1, .tar2{
+    margin-right: 100px;
+
+}
+
+.tar1 img, .tar2 img, .tar3 img{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+} 
+
+.supuesto-footer{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background: #56008c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row; 
+    border-radius: 60px;
+    filter:drop-shadow(0 8px 8px rgba(0,0,0,0.2));
+}
+
+.container-footer h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+.supuesto-footer span{
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: row !important;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:800px){
+
+    
+
+
+    .colecciones h3{
+        width: 80%;
+        font-size: 30px;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+    
+
+    .container-colecciones{
+        margin-top: 10px;
+    }
+
+    .colect1{
+        width: 500px;
+        height: 300px;
+    }
+
+    .colect2{
+        width: 500px;
+        height: 300px;
+    }
+
+    .colect3{
+        width: 500px;
+        height: 300px;
+    }
+
+    .tar-contain{
+        flex-direction: column;
+        height: 500px;
+        width: 70%;
+    }
+
+    .tar1, .tar2, .tar3{
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width:500px){
+
+    .container-footer h4{
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+    
+    .colect1{
+        width: 320px;
+        height: 250px;
+    }
+
+    .colect2{
+        width: 320px;
+        height: 250px;
+    }
+
+    .colect3{
+        width: 320px;
+        height: 250px;
+    }
+}
