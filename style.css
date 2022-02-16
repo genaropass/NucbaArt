@@ -166,6 +166,7 @@ h1{
     background-image: url(/img/Thetan-Arena-Como-funciona-este-juego-NFT.jpg);
     background-position: center bottom;
     /* position: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
